@@ -27,9 +27,9 @@ Because the image features after processing is very large, you can download them
 │  │  │  ├── /jsons/	       
 │  │  │  │  ├── twitter15_info.json	        
 │  │  │  │  ├── twitter17_info.json
-│  │  │  │  ├── amended_similarity_by_region2015.json
+│  │  │  │  ├── amended_similarity_by_region2015.json fine-grained similarity
 │  │  │  │  ├── amended_similarity_by_region2017.json
-│  │  │  │  ├── amended_similarity_by_whole2015.json
+│  │  │  │  ├── amended_similarity_by_whole2015.json coarse-grained similarity
 │  │  │  │  ├── amended_similarity_by_whole2017.json
 │  ├── /twitter2015/
 │  ├── /twitter2017/
