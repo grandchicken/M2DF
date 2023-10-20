@@ -46,3 +46,7 @@ sh 15_pretrain_full.sh
 Train on twitter2017
 
 sh 15_pretrain_full.sh
+
+### Log
+
+Training log on tw17(trained on GeForce GTX 1080 Ti) and tw15(GeForce GTX 3090 Ti) are shown in the \log\
