@@ -44,11 +44,11 @@ Because the image features after processing is very large, you can download them
 
 Train on twitter2015
 
-sh 15_pretrain_full.sh
+`sh 15_pretrain_full.sh`
 
 Train on twitter2017
 
-sh 15_pretrain_full.sh
+`sh 15_pretrain_full.sh`
 
 ### Log
 
