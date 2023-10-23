@@ -12,7 +12,7 @@
 
 ```
 + python 3.7.13
-+ tensorflow 1.12.0+cu113
++ torch 1.12.0+cu113
 + numpy 1.21.6
 ```
 
