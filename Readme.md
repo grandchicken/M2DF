@@ -65,11 +65,11 @@ If you find this helpful, please cite our paper.
 
 ```bash
 @inproceedings{
-anonymous2023mdf,
-title={M2{DF}: Multi-grained Multi-curriculum Denoising Framework for Multimodal Aspect-based Sentiment Analysis},
-author={Anonymous},
-booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
-year={2023},
-url={https://openreview.net/forum?id=RgA1tcrxan}
+    anonymous2023mdf,
+    title={M2{DF}: Multi-grained Multi-curriculum Denoising Framework for Multimodal Aspect-based Sentiment Analysis},
+    author={Anonymous},
+    booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
+    year={2023},
+    url={https://openreview.net/forum?id=RgA1tcrxan}
 }
 ```
