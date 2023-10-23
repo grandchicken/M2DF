@@ -48,7 +48,7 @@ Train on twitter2015
 
 Train on twitter2017
 
-`sh 15_pretrain_full.sh`
+`sh 17_pretrain_full.sh`
 
 ### Log
 
