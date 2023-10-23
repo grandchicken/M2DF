@@ -42,13 +42,13 @@ Because the image features after processing is very large, you can download them
 
 ### Usage
 
-- Train on twitter2015
+- Train and Test on twitter2015
 
 ```bash
 sh 15_pretrain_full.sh
 ```
 
-- Train on twitter2017
+- Train and Test on twitter2017
 
 ```bash
 sh 17_pretrain_full.sh
