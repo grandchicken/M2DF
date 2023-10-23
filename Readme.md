@@ -54,7 +54,7 @@ sh 15_pretrain_full.sh
 sh 17_pretrain_full.sh
 ```
 
-### Log
+### Logs
 
 ```bash
 Training log on tw17 (trained on GeForce GTX 1080 Ti) and tw15 (GeForce GTX 3090 Ti) are placed in the \log\
