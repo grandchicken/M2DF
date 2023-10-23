@@ -59,3 +59,17 @@ sh 17_pretrain_full.sh
 ```bash
 Training log on tw17 (trained on GeForce GTX 1080 Ti) and tw15 (GeForce GTX 3090 Ti) are placed in the \log\
 ```
+
+## Citation
+If you find this helpful, please cite our paper.
+
+```bash
+@inproceedings{
+anonymous2023mdf,
+title={M2{DF}: Multi-grained Multi-curriculum Denoising Framework for Multimodal Aspect-based Sentiment Analysis},
+author={Anonymous},
+booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
+year={2023},
+url={https://openreview.net/forum?id=RgA1tcrxan}
+}
+```
