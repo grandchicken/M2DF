@@ -42,14 +42,18 @@ Because the image features after processing is very large, you can download them
 
 ### Usage
 
-Train on twitter2015
+- Train on twitter2015
 
-`sh 15_pretrain_full.sh`
+```bash
+sh 15_pretrain_full.sh
+```
 
-Train on twitter2017
+- Train on twitter2017
 
-`sh 17_pretrain_full.sh`
+```bash
+sh 17_pretrain_full.sh
+```
 
 ### Log
 
-Training log on tw17(trained on GeForce GTX 1080 Ti) and tw15(GeForce GTX 3090 Ti) are shown in the \log\
+Training log on tw17 (trained on GeForce GTX 1080 Ti) and tw15 (GeForce GTX 3090 Ti) are shown in the \log\
