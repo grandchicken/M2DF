@@ -4,7 +4,7 @@ The implementation of EMNLP2023 paper "M2DF: Multi-grained Multi-curriculum Deno
 
 ## Overview
 
-<img src="m2df.png" style="width:200px height:300px" />
+<img src="assets/M2DF.jpg" style="width:200px height:300px" />
 
 ## Setup
 

@@ -1,3 +1,6 @@
+python==3.7.13
+torch==1.12.0+cu113
+numpy==1.21.6
 transformers==3.4.0
 fastnlp
 h5py
