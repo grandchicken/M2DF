@@ -397,12 +397,12 @@ Training log on tw17 (trained on GeForce GTX 1080 Ti) and tw15 (GeForce GTX 3090
 If you find this helpful, please cite our paper.
 
 ```bibtex
-@inproceedings{
-    anonymous2023mdf,
-    title={M2{DF}: Multi-grained Multi-curriculum Denoising Framework for Multimodal Aspect-based Sentiment Analysis},
-    author={Anonymous},
-    booktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},
-    year={2023},
-    url={https://openreview.net/forum?id=RgA1tcrxan}
+@misc{zhao2023m2df,
+      title={M2DF: Multi-grained Multi-curriculum Denoising Framework for Multimodal Aspect-based Sentiment Analysis}, 
+      author={Fei Zhao and Chunhui Li and Zhen Wu and Yawen Ouyang and Jianbing Zhang and Xinyu Dai},
+      year={2023},
+      eprint={2310.14605},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
