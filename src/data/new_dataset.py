@@ -301,9 +301,9 @@ class Preprocess:
         self.gt_spans = np.array(self.gt_spans, dtype=object)
         self.task = output['task']
         self.u_pos = output['u_pos']
-        self.object_nums_path = args.object_nums_path
-        with open(self.object_nums_path, 'r', encoding='utf-8') as f:
-            self.image_ids2object_num_dict = json.load(f)
+        # self.object_nums_path = args.object_nums_path
+        # with open(self.object_nums_path, 'r', encoding='utf-8') as f:
+        #     self.image_ids2object_num_dict = json.load(f)
 
         self.image_text_similarity_path = args.image_text_similarity_path
         self.image_text_region_similarity_path = args.image_text_region_similarity_path
