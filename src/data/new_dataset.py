@@ -310,22 +310,22 @@ class Preprocess:
 
         self.count_num = self.calculate_count_noun()
         self.sequence_id = np.arange(len(self.input_ids))
-        self.object_nums = self.calculate_object_num()
+        # self.object_nums = self.calculate_object_num()
 
         self.image_text_similarity = self.calculate_image_text_similarity()
         self.image_text_region_similarity = self.calculate_image_text_region_similarity()
 
-        # 根据 object num 排序
-        self.input_ids_by_object_num, self.attention_masks_by_object_num, \
-        self.image_ids_by_object_num, self.image_feats_by_object_num, \
-        self.span_labels_by_object_num, self.span_masks_by_object_num, \
-        self.gt_spans_by_object_num = self.sort_by_object_num_difficulty()
+        # # 根据 object num 排序
+        # self.input_ids_by_object_num, self.attention_masks_by_object_num, \
+        # self.image_ids_by_object_num, self.image_feats_by_object_num, \
+        # self.span_labels_by_object_num, self.span_masks_by_object_num, \
+        # self.gt_spans_by_object_num = self.sort_by_object_num_difficulty()
 
-        # 根据 noun num 排序
-        self.input_ids_by_noun_num, self.attention_masks_by_noun_num, \
-        self.image_ids_by_noun_num, self.image_feats_by_noun_num, \
-        self.span_labels_by_noun_num, self.span_masks_by_noun_num, \
-        self.gt_spans_by_noun_num = self.sort_by_noun_num_difficulty()
+        # # 根据 noun num 排序
+        # self.input_ids_by_noun_num, self.attention_masks_by_noun_num, \
+        # self.image_ids_by_noun_num, self.image_feats_by_noun_num, \
+        # self.span_labels_by_noun_num, self.span_masks_by_noun_num, \
+        # self.gt_spans_by_noun_num = self.sort_by_noun_num_difficulty()
 
         # 根据 similarity 排序
         self.input_ids_by_similarity, self.attention_masks_by_similarity, \
