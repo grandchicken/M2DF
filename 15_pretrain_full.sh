@@ -4,8 +4,8 @@ CUDA_VISIBLE_DEVICES=3  python MAESC_training.py \
       --model_config config/pretrain_base.json \
       --lambda_init 0.7 \
       --curriculum_pace linear \
-      --image_text_similarity_path src/data/json/amended_similarity_by_whole2015.json \
-      --image_text_region_similarity_path src/data/json/amended_similarity_by_region2015.json \
+      --image_text_similarity_path src/data/jsons/amended_similarity_by_whole2015.json \
+      --image_text_region_similarity_path src/data/jsons/amended_similarity_by_region2015.json \
       --log_dir 15_aesc \
       --num_beams 4 \
       --eval_every 1 \
